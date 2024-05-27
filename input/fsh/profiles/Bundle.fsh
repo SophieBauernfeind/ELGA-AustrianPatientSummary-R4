@@ -84,4 +84,4 @@ Description: "This AT IPS profile for the Bundle resource is derived from the ge
 * entry[ObservationResults].resource 1..
 * entry[ObservationResults].resource only ObservationResultsUvIps
 * entry[Specimen].resource 1..
-* entry[Specimen].resource only SpecimenUvIps
+* entry[Specimen].resource only AtIpsSpecimen
