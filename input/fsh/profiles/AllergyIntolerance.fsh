@@ -6,6 +6,6 @@ Description: "This AT IPS profile for the AllergyIntolerance resource is derived
 * . ^short = "AT IPS AllergyIntolerance"
 * ^extension[$imposeProfile].valueCanonical = Canonical(AllergyIntoleranceUvIps)
 
-* patient only Reference(HL7ATCorePatient)
-* recorder only Reference(HL7ATCorePractitioner or HL7ATCorePractitionerRole or HL7ATCorePatient or RelatedPerson)
-* asserter only Reference(HL7ATCorePatient or RelatedPerson or HL7ATCorePractitioner or HL7ATCorePractitionerRole)
+* patient only Reference(AtIpsPatient)
+* recorder only Reference(AtIpsPractitioner or AtIpsPractitionerRole or AtIpsPatient or RelatedPerson)
+* asserter only Reference(AtIpsPatient or RelatedPerson or AtIpsPractitioner or AtIpsPractitionerRole)

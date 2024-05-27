@@ -6,4 +6,4 @@ Description: "This AT IPS profile for the MedicationRequest resource is derived 
 * . ^short = "AT IPS MedicationRequest"
 * ^extension[$imposeProfile].valueCanonical = Canonical(MedicationRequestIPS)
 * medication[x] only CodeableConcept or Reference(AtIpsMedication)
-* subject only Reference(HL7ATCorePatient)
+* subject only Reference(AtIpsPatient)

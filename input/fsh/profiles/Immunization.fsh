@@ -5,4 +5,4 @@ Title: "AT IPS Immunization"
 Description: "This AT IPS profile for the Immunization resource is derived from the general Immunization resource in absence of a corresponding profile in the HL7® Austria FHIR® Core Implementation Guide and also ensures IPS conformity via the IPS profile referenced by the so-called imposeProfile extension."
 * . ^short = "AT IPS Immunization"
 * ^extension[$imposeProfile].valueCanonical = Canonical(ImmunizationUvIps)
-* patient only Reference(HL7ATCorePatient)
+* patient only Reference(AtIpsPatient)

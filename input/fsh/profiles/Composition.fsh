@@ -6,7 +6,7 @@ Title: "AT IPS Composition"
 Description: "This AT IPS profile for the Composition resource is derived from the general Composition resource in absence of a corresponding profile in the HL7® Austria FHIR® Core Implementation Guide and also ensures IPS conformity via the IPS profile referenced by the so-called imposeProfile extension."
 * . ^short = "AT IPS Composition"
 * ^extension[$imposeProfile].valueCanonical = Canonical(CompositionUvIps)
-* subject only Reference(HL7ATCorePatient)
+* subject only Reference(AtIpsPatient)
 * relatesTo.target[x] only Identifier or Reference(AtIpsComposition)
 
 * section ^slicing.discriminator.type = #pattern
