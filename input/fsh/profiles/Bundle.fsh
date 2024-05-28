@@ -6,8 +6,10 @@ Description: "This AT IPS profile for the Bundle resource is derived from the ge
 * . ^short = "AT IPS Document"
 * ^extension[$imposeProfile].valueCanonical = Canonical(BundleUvIps)
 
-* entry ^slicing.discriminator.type = #profile
-* entry ^slicing.discriminator.path = "resource"
+* entry ^slicing.discriminator[0].type = #profile
+* entry ^slicing.discriminator[=].path = "resource"
+* entry ^slicing.discriminator[+].type = #type
+* entry ^slicing.discriminator[=].path = "resource"
 * entry ^slicing.rules = #open
 * entry ^slicing.ordered = false
 
