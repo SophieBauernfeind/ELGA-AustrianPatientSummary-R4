@@ -47,7 +47,7 @@ Description: "This AT IPS profile for the Bundle resource is derived from the ge
 * entry[Condition].resource 1..
 * entry[Condition].resource only AtIpsCondition
 * entry[Device].resource 1..
-* entry[Device].resource only AtIpsDevice
+* entry[Device].resource only Device // do not use AtIpsDevice here because e.g. no simple Device-author is possible
 * entry[DeviceUseStatement].resource 1..
 * entry[DeviceUseStatement].resource only AtIpsDeviceUseStatement
 * entry[DiagnosticReport].resource 1..
