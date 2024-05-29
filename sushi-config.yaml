@@ -7,7 +7,7 @@ id: hl7.at.fhir.elga.ips
 canonical: https://fhir.hl7.at/elga-austrianpatientsummary-r4
 name: ELGA-AustrianPatientSummary-R4
 title: Austrian IPS (R4)
-description: The FHIR® implementation guide Austrian IPS is derived from the HL7® Austria FHIR® Core Implementation Guide and ensures conformity with the International Patient Summary (IPS).
+description: The FHIR® implementation guide Austrian IPS is derived from the HL7® Austria FHIR® Core implementation guide and ensures conformity with the International Patient Summary (IPS).
 status: draft # draft | active | retired | unknown
 jurisdiction: urn:iso:std:iso:3166#AUT
 version: 0.1.0
