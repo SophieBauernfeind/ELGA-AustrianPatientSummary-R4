@@ -16,8 +16,6 @@ Alias: $event-timing = http://hl7.org/fhir/event-timing
 Instance: IPS-2-preventive-medical-checkup
 InstanceOf: AtIpsBundle
 Usage: #example
-* meta.profile = "https://fhir.hl7.at/elga-austrianpatientsummary-r4/StructureDefinition/at-ips-document"
-// * meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"
 * identifier.system = "http://system-to-be-defined.com"
 * identifier.value = "63fef90a-be11-4ddf-aece-d77da15c4f20"
 * type = #document
